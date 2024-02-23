@@ -1,0 +1,32 @@
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+.wrapper {
+  max-width: 400px;
+}
+
+.information {
+  & img {
+    height: 360px;
+    object-fit: cover;
+  }
+  & h5 {
+    color: #f3bf99;
+  }
+}
+
+.footer {
+  & a {
+    &:hover {
+      opacity: 0.8 !important;
+    }
+  }
+}
+
+.btn-linkedin {
+  background: #0077b5;
+  &:hover {
+    background: #0077b5;
+    opacity: 0.8;
+  }
+}
